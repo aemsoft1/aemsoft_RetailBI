@@ -4,8 +4,8 @@ jobs:
   Job-1:
     excludeSelector: ""
     id: 1
-    includeSelector: ""
-    name: New Job
+    includeSelector: "{ location: STG_STORE name: CUSTOMER } OR { location: STD_TEST name: DIM_CUSTOMER }"
+    name: JB_DIM_CUSTOMER
     steps: []
     subgraphs: []
 locations:
